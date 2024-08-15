@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Squad List</title>
+    <link rel="stylesheet" href="csssquad.css">
+    <script src="teamData.js"></script>
+    <script type ="module" src="squadScript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Team</h1>
+        <select id="teamSelect">
+            <option value="">--Select a team--</option>
+            <option value="premierLeague">Manchester City (Premier League)</option>
+            <option value="bundesliga">Bayern Munich (Bundesliga)</option>
+            <option value="serieA">Napoli (Serie A)</option>
+            <option value="ligue1">Paris Saint-Germain (Ligue 1)</option>
+            <option value="eredivisie">Ajax (Eredivisie)</option>
+        </select>
+
+        <table id="squadTable">
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Position</th>
+                    <th>Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Squad will be populated here -->
+            </tbody>
+        </table>
+    </div>
+<p><button id="backButton"><a href="../">navigate back to previous page</a></button></p>
+</body>
+</html>
+

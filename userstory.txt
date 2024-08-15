@@ -1,0 +1,9 @@
+As a user, I want to be able to be able to see which 5 teams from the top 5 leagues of Football have scored the most goals this season. With this information I can begin to look at those teams and see what they do to score so many goals.
+
+Data Sources
+
+https://www.api-football.com/ - The API I will be using
+
+https://www.api-football.com/documentation-v3#tag/Teams/operation/get-teams - How i can fetch specific teams
+
+
